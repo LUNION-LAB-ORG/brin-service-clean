@@ -4,7 +4,14 @@ import Image from "next/image";
 
 export default function Medium(){
 
-    const list = [
+   type Article = {
+     img: string;
+     title: string;
+     subtitle: string;
+     date: string;
+ }
+
+    const list: Article[] = [
         {
           
           img: "/assets/images/illustrations/blog/picture1.png",
@@ -74,7 +81,7 @@ export default function Medium(){
         <div className="bg-white px-8 py-16">
         <div className="gap-4 grid grid-cols-1 md:grid-cols-3 place-items-center">
         {list.map((item, index) => (
-        /* eslint-disable no-console */
+
         <div key={index} className="flex flex-col gap-3 mb-4" >
           <div>
             <Image
