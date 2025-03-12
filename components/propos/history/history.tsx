@@ -22,7 +22,7 @@ export default function History() {
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <div className="text-primary text-3xl font-black">HISTOIRE</div>
           <div className="text-xl leading-relaxed">
-            Depuis plus de 10 ans, <span className="text-secondary font-bold">BRIN SERVICE CLEAN</span> est votre partenaire de confiance en nettoyage professionnel. 
+            <span className="text-secondary text-justify font-bold">BRIN SERVICE CLEAN</span> est votre partenaire de confiance en nettoyage professionnel. <br />
             Fondée par des professionnels passionnés par la propreté et l&apos;hygiène, notre entreprise se distingue par son engagement total envers la satisfaction de nos clients. 
             Nous combinons expertise technique, équipements modernes et personnel hautement qualifié pour transformer vos espaces professionnels et résidentiels.
           </div>

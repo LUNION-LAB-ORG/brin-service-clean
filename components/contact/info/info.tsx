@@ -12,15 +12,15 @@ export default function Info(){
                 <div className="flex flex-col gap-8">
                     <div className="flex gap-4 items-center">
                         <Phone size={40} className="bg-primary text-white rounded-full p-2"/>
-                        <div>(+225) 01 02 34 56 78</div>
+                        <div>(+225) 05 01 23 62 05</div>
                     </div>
                     <div className="flex gap-4 items-center">
                         <Mail size={40} className="bg-primary text-white rounded-full p-2"/>
-                        <div>info@email.com</div>
+                        <div>info@brin-serviceclean.com</div>
                     </div>
                     <div className="flex gap-4 items-center">
                         <MapPin size={40} className="bg-primary text-white rounded-full p-2"/>
-                        <div>Abidjan Plateau, Immeuble Postel 7ème étage</div>
+                        <div>Marcory centre, 9ème arrondissement</div>
                     </div>
                 </div>
             </div>

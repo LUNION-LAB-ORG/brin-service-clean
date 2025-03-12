@@ -12,9 +12,9 @@ export default function NotFound() {
         height={300}
         className="mb-6"
       />
-      <p className="mt-4 text-xl font-semibold text-center text-black">Contenu indisponible</p>
+      <p className="mt-4 text-xl font-semibold text-center text-black">Bientôt disponible</p>
       <p className="mt-2 text-center text-gray-600">
-      Nous vous suggérons de revenir en arrière et d&apos;essayer un autre lien
+      Découvrez très prochainement nos contenus informatifs et formatifs sur le nettoyage professionnel...
       </p>
 
       <Link href="/" passHref>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Twitter,  } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -20,16 +20,16 @@ const Footer = () => {
               />
             </div>
             <div className="flex flex-wrap md:flex-row gap-4 items-center">
-            <Link href="/" className="hover:opacity-80 transition-opacity">
+            <Link target='_blank' href="https://www.facebook.com/share/14pmD93wNf/?mibextid=wwXIfr" className="hover:opacity-80 transition-opacity">
               <Facebook className="w-6 h-6 text-blue-700 hover:text-blue-900" />
             </Link>
-            <Link href="/" className="hover:opacity-80 transition-opacity">
+            <Link target='_blank' href="https://www.instagram.com/brinserviceclean?igsh=MTcxY250Zmo1bGcxcw%3D%3D&utm_source=qr" className="hover:opacity-80 transition-opacity">
               <Instagram className="w-6 h-6 text-blue-700 hover:text-blue-900" />
             </Link>
-            <Link href="/" className="hover:opacity-80 transition-opacity">
+            {/* <Link href="/" className="hover:opacity-80 transition-opacity">
               <Twitter className="w-6 h-6 text-blue-700 hover:text-blue-900" />
-            </Link>
-            <Link href="/" className="hover:opacity-80 transition-opacity">
+            </Link> */}
+            <Link target='_blank' href="https://www.linkedin.com/company/brin-serviceclean/" className="hover:opacity-80 transition-opacity">
               <Linkedin className="w-6 h-6 text-blue-700 hover:text-blue-900" />
             </Link>
           </div>
@@ -49,7 +49,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">LÉGALES</h3>
             <ul className="space-y-6">
-              <li><Link href="/support" className="hover:text-primary-300">Support</Link></li>
+              <li><Link href="/" className="hover:text-primary-300">Support</Link></li>
               <li><Link href="/politique" className="hover:text-primary-300">Politique de confidentialité</Link></li>
               <li><Link href="/condition" className="hover:text-primary-300">Termes et conditions</Link></li>
             </ul>
@@ -62,9 +62,9 @@ const Footer = () => {
             {/* <div className="border-b w-20"></div> */}
             </div>
             <ul className="space-y-6">
-              <li className="hover:text-primary-300">(+225) 01 02 34 56 78</li>
-              <li className="hover:text-primary-300">info@email.com</li>
-              <li className="hover:text-primary-300">Abidjan Plateau, Immeuble Postel 7ème étage</li>
+              <li className="hover:text-primary-300">(+225) 05 01 23 62 05</li>
+              <li className="hover:text-primary-300">info@brin-serviceclean.com</li>
+              <li className="hover:text-primary-300">Marcory centre, 9ème arrondissement</li>
             </ul>
           </div>
         </div>

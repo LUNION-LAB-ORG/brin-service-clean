@@ -1,4 +1,4 @@
-import Formulaire from "@/components/contact/formulaire/formulaire";
+// import Formulaire from "@/components/contact/formulaire/formulaire";
 import Hero from "@/components/contact/hero/hero";
 import Info from "@/components/contact/info/info";
 
@@ -8,7 +8,7 @@ export default function Contact(){
         <div>
             <Hero/>
             <Info/>
-            <Formulaire/>
+            {/* <Formulaire/> */}
         </div>
     );
 }

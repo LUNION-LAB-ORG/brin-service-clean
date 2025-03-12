@@ -7,7 +7,7 @@ import Statistic from "@/components/home/statistic/statistic";
 import Walk from "@/components/home/walk/walk";
 import Request from "@/components/home/request/request";
 import { Partner } from "@/components/home/partner/partners";
-import News from "@/components/home/news/news";
+// import News from "@/components/home/news/news";
 
 
 
@@ -24,7 +24,7 @@ export default function Home() {
       <Walk/>
       <Request/>
       <Partner/>
-      <News/>
+      {/* <News/> */}
     </div>
   );
 }

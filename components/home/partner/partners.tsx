@@ -10,30 +10,32 @@ type Press = {
 const press: Press[] = [
   {
     name: "Client 1",
-    picture: "/assets/images/illustrations/page-accueil/group1.png"
+    picture: "/assets/images/illustrations/page-accueil/logo-5.png"
   },
   {
     name: "Client 2",
-    picture: "/assets/images/illustrations/page-accueil/group2.png"
+    picture: "/assets/images/illustrations/page-accueil/logo-3.png"
   },
   {
     name: "Client 3",
-    picture: "/assets/images/illustrations/page-accueil/group3.png"
+    picture: "/assets/images/illustrations/page-accueil/logo3.png"
   },
   {
     name: "Client 4",
-    picture: "/assets/images/illustrations/page-accueil/group4.png"
+    picture: "/assets/images/illustrations/page-accueil/logo-4.png"
   },
   {
     name: "Client 5",
-    picture: "/assets/images/illustrations/page-accueil/group5.png"
+    picture: "/assets/images/illustrations/page-accueil/logo-2.png"
   },
   {
     name: "Client 6",
-    picture: "/assets/images/illustrations/page-accueil/group6.png"
+    picture: "/assets/images/illustrations/page-accueil/logo6.png"
   },
 
 ]
+
+//turbo, lunionlab, aitech, nobilis services, mirna agence...
 
 export function Partner() {
   return (
@@ -44,7 +46,7 @@ export function Partner() {
         <div className="text-primary text-lg font-bold">NOS PARTENAIRES</div>
         <div className="text-gray-700 text-2xl font-black pb-8">CEUX QUI NOUS FONT CONFIANCE</div>
       </div>
-          <div className="relative mt-6 bg-[#1195FF] py-4">
+          <div className="relative mt-6 bg-[#adafa9] py-4">
             <Marquee className="max-w-full [--duration:40s]">
               {press.map((logo) => (
                 <Image

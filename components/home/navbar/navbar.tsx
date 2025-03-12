@@ -10,9 +10,8 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Button,
-  Input,
 } from "@nextui-org/react";
-import { CalendarDays, Search } from "lucide-react";
+import { CalendarDays } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -82,9 +81,9 @@ export default function Head() {
             </Link>
           </NavbarItem>
         ))}
-        <NavbarItem>
+        {/* <NavbarItem>
         <Input color="default" type="text" variant="underlined" label="Recherche" className="w-full" endContent={<Search className="w-5 h-5 text-black" />}/>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarContent justify="end">

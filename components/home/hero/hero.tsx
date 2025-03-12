@@ -30,12 +30,13 @@ export default function Hero() {
             <h2 className="text-xl font-extralight text-white">Nous effectuons des tâches de nettoyage en utilisant le moins de temps et d’énergie possible.</h2>
 
             <div className="flex flex-row gap-4">
-            <Button as={Link} radius="md" href="#request" className="mt-6 bg-white w-1/2 text-primary p-6">
-              Demander un devis
-            </Button>
-            <Button as={Link} href="/services" radius="md" className="mt-6 w-1/2 border-2 bg-transparent border-white text-white p-6">
+            <Button as={Link} href="/services" radius="md" className="mt-6 bg-transparent border-2 text-white border-white hover:bg-white w-1/2 hover:text-primary transition-all p-6">
               Voir tous les services
             </Button>
+            <Button as={Link} radius="md" href="/brinner" className="mt-6 bg-transparent border-2 text-white border-white hover:bg-white w-1/2 hover:text-primary transition-all p-6">
+              Demander un devis
+            </Button>
+            
             </div>
             
           </div>
