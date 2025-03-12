@@ -24,7 +24,7 @@ export default function Client() {
             title: "LUNION-LAB",
             description:
                 "Nous travaillons avec <strong class='text-primary'>BRIN SERVICE CLEAN</strong> depuis plusieurs années et nous avons développé une véritable relation de confiance. Leur équipe est composée de professionnels compétents et discrets, qui connaissent parfaitement nos locaux et nos exigences. Nous sommes sereins de savoir que nos bureaux sont entre de bonnes mains.",
-            profil: "/assets/images/illustrations/propos/logo5.png",
+            profil: "/assets/images/illustrations/propos/logo5-2.png",
         },
     ];
 

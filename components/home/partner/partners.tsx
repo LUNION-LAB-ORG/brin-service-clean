@@ -46,7 +46,7 @@ export function Partner() {
         <div className="text-primary text-lg font-bold">NOS PARTENAIRES</div>
         <div className="text-gray-700 text-2xl font-black pb-8">CEUX QUI NOUS FONT CONFIANCE</div>
       </div>
-          <div className="relative mt-6 bg-[#adafa9] py-4">
+          <div className="relative mt-6 bg-[#efefef] py-4">
             <Marquee className="max-w-full [--duration:40s]">
               {press.map((logo) => (
                 <Image
